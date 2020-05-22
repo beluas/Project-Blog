@@ -7,7 +7,8 @@
 	border-radius: 0.5rem;
 	transition: transform 0.2s ease-in-out;
 	position: relative;
-	margin-bottom: 1rem;
+	margin: 0 auto 0.5rem;
+	max-width: 600px;
 	h2,
 	h5 {
 		letter-spacing: 4px;
@@ -27,6 +28,6 @@
 	}
 
 	&:hover {
-		transform: scale(1.08);
+		transform: scale(1.1);
 	}
 }
