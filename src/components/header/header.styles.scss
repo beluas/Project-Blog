@@ -1,5 +1,56 @@
 .header {
-	flex-basis: 35%;
+	width: 35%;
+	height: 100vh;
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+
+	nav {
+		display: flex;
+		flex-direction: column;
+		li {
+			margin-bottom: 1.5rem;
+			color: #858586;
+			font-size: 12px;
+			font-weight: bold;
+			a {
+				text-decoration: none;
+				color: #858586;
+				letter-spacing: 1.5px;
+				text-transform: uppercase;
+				transition: color 0.2s ease-in-out;
+			}
+
+			.line {
+				display: inline-block;
+				min-width: 36px;
+				min-height: 1px;
+				background-color: #858586;
+				position: relative;
+				top: -5px;
+				margin: 0 0.5rem;
+				transition: background-color 0.2s ease-in-out, min-width 0.5s;
+			}
+			.number {
+				font-size: 11px;
+				transition: color 0.2s ease-in-out;
+			}
+
+			&:hover,
+			&:active {
+				.line {
+					background-color: #fff;
+					min-width: 54px;
+				}
+				a {
+					color: white;
+				}
+				.number {
+					color: white;
+				}
+			}
+		}
+	}
 }
 
 p {
@@ -19,4 +70,30 @@ h1 {
 .skill {
 	color: white;
 	text-decoration: underline;
+}
+i {
+	font-size: 14px;
+}
+
+.social {
+	margin-top: auto;
+	margin-bottom: 2rem;
+	display: flex;
+	justify-content: space-evenly;
+
+	img {
+		width: 52px;
+		height: 52px;
+		border-radius: 50%;
+		border: black 2px solid;
+	}
+
+	span {
+		font-size: 14px;
+		align-self: center;
+
+		span {
+			margin: 0 12px;
+		}
+	}
 }

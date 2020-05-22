@@ -5,7 +5,6 @@ const Header = () => {
 	return (
 		<div className="header">
 			<h1>Hello, I'm Ivan.</h1>
-
 			<p className="mb5">
 				Well who I am ? I'm very bad in introductions then let's keep
 				DRY. A Front-End-Developer who loves{" "}
@@ -21,15 +20,34 @@ const Header = () => {
 			</p>
 
 			<nav>
-				<li>Latest</li>
-				<li>Projects</li>
-				<li>Huge projects</li>
+				<li>
+					<span className="number">01</span>{" "}
+					<span className="line"></span>
+					<a href="#">Latest</a>
+				</li>
+				<li>
+					<span className="number">02</span>{" "}
+					<span className="line"></span>
+					<a href="#">Projects </a>
+				</li>
+				<li>
+					<span className="number">03</span>{" "}
+					<span className="line"></span>
+					<a href="#">Huge Projects</a>
+				</li>
 			</nav>
 
-			<div className="details">
-				<img src="#" alt="portfolio-pic" />
-				<span>I GitHub</span>
-				<span>I LinkedIn</span>
+			<div className="social">
+				<img src="/portfolioImg.png" alt="portfolio-pic" />
+				<span>
+					<i class="fab fa-github"></i> <span>GitHub</span>
+					<i class="fas fa-external-link-alt"></i>
+				</span>
+
+				<span>
+					<i class="fab fa-linkedin"></i> <span>LinkedIn</span>
+					<i class="fas fa-external-link-alt"></i>
+				</span>
 			</div>
 		</div>
 	);
