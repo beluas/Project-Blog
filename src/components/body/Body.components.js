@@ -2,57 +2,33 @@ import React from "react";
 import "./body.styles.scss";
 
 import ProjectTab from "../projectTab/ProjectTab.component";
-import Skills from "../skills/Skills.component";
+import { projects } from "../../projects.data";
 
 class Body extends React.Component {
-	state = {
-		elementHovered: false,
-	};
-
-	handleHover = () => {
-		this.setState({ elementHovered: true });
-	};
-
 	render() {
 		return (
 			<div className="body">
-				<Skills />
-				<ProjectTab
-					skills="React"
-					title="Title1"
-					desc="lorem ipsum lorem abcd fgjsoe"
-					tier="1 - Beginner"
-					collection="Api"
-				/>
+				<div className="overlay" />
+				<h2 id="latest">Latest</h2>
 
-				<ProjectTab
-					skills="React"
-					title="title1"
-					desc="lorem ipsum lorem abcd fgjsoe"
-					tier="1 - Beginner"
-					collection="Api"
-				/>
-				<ProjectTab
-					skills="React"
-					title="title1"
-					desc="lorem ipsum lorem abcd fgjsoe"
-					tier="1 - Beginner"
-					collection="Api"
-				/>
-				<ProjectTab
-					skills="React"
-					title="title1"
-					desc="lorem ipsum lorem abcd fgjsoe"
-					tier="1 - Beginner"
-					collection="Api"
-				/>
-				<ProjectTab
-					skills="React"
-					title="title1"
-					desc="lorem ipsum lorem abcd fgjsoe"
-					tier="1 - Beginner"
-					collection="Api"
-				/>
+				{projects.slice(0, 3).map((project) => (
+					<ProjectTab {...project} />
+				))}
+
+				<h2 id="greatest">Greatest</h2>
+				{projects
+					.filter((el) => el.greatest)
+					.map((project) => (
+						<ProjectTab {...project} />
+					))}
+				<h2 id="other-projects">Other Projects</h2>
+
+				{projects
+					.filter((el) => !el.greatest)
+					.slice(2, projects.length)
+					.map((project) => (
+						<ProjectTab {...project} />
+					))}
 			</div>
 		);
 	}

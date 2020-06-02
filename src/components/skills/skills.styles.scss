@@ -1,13 +1,54 @@
 .skills {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
+	width: 100%;
 	align-self: center;
-	padding-bottom: 2rem;
+	padding-top: 2rem;
+
+	padding-bottom: 3rem;
 	i {
 		font-size: 48px;
 	}
 	img {
 		position: relative;
 		top: 2px;
+	}
+}
+
+@media (max-width: 900px) {
+	.header,
+	.body {
+		width: 100% !important;
+		display: block;
+		position: relative !important;
+		margin: 0 auto;
+		height: 100%;
+		right: 0 !important;
+		padding-top: 0 !important;
+	}
+	.social {
+		justify-content: flex-start;
+		& > * {
+			margin-top: 2rem;
+			margin-right: 2rem;
+		}
+	}
+
+	.skills {
+		justify-content: space-evenly;
+	}
+	.container {
+		padding: 1rem !important;
+	}
+	nav {
+		display: none !important;
+	}
+}
+
+@media (max-width: 1050px) {
+	h1 {
+		margin-bottom: 0;
+		font-size: 36px;
+		// padding-bottom: 0;
 	}
 }

@@ -1,11 +1,13 @@
 import React from "react";
 import "./header.styles.scss";
+import profilePicture from "../../portfolioImg.png";
+import Skills from "../skills/Skills.component";
 
 const Header = () => {
 	return (
 		<div className="header">
 			<h1>Hello, I'm Ivan.</h1>
-			<p className="mb5">
+			<p>
 				Well who I am ? I'm very bad in introductions then let's keep
 				DRY. A Front-End-Developer who loves{" "}
 				<span className="skill">React</span> and uses it on daily basis
@@ -19,34 +21,36 @@ const Header = () => {
 				world deserves another one. Right ?
 			</p>
 
+			<Skills />
+
 			<nav>
 				<li>
 					<span className="number">01</span>{" "}
 					<span className="line"></span>
-					<a href="#">Latest</a>
+					<a href="#latest">Latest</a>
 				</li>
 				<li>
 					<span className="number">02</span>{" "}
 					<span className="line"></span>
-					<a href="#">Projects </a>
+					<a href="#greatest">Greatest </a>
 				</li>
 				<li>
 					<span className="number">03</span>{" "}
 					<span className="line"></span>
-					<a href="#">Huge Projects</a>
+					<a href="#other-projects">Projects</a>
 				</li>
 			</nav>
 
 			<div className="social">
-				<img src="/portfolioImg.png" alt="portfolio-pic" />
+				<img src={profilePicture} alt="portfolio-pic" />
 				<span>
-					<i class="fab fa-github"></i> <span>GitHub</span>
-					<i class="fas fa-external-link-alt"></i>
+					<i className="fab fa-github"></i> <span>GitHub</span>
+					<i className="fas fa-external-link-alt"></i>
 				</span>
 
 				<span>
-					<i class="fab fa-linkedin"></i> <span>LinkedIn</span>
-					<i class="fas fa-external-link-alt"></i>
+					<i className="fab fa-linkedin"></i> <span>LinkedIn</span>
+					<i className="fas fa-external-link-alt"></i>
 				</span>
 			</div>
 		</div>
