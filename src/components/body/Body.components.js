@@ -25,7 +25,7 @@ class Body extends React.Component {
 
 				{projects
 					.filter((el) => !el.greatest)
-					.slice(2, projects.length)
+					.slice(1)
 					.map((project) => (
 						<ProjectTab {...project} />
 					))}

@@ -28,14 +28,7 @@ export const projects = [
 		link: "https://beluas.github.io/6-Real-Estate/",
 		greatest: true,
 	},
-	{
-		title: "Nature Website",
-		desc: "A simple One Page template made with bootstrap ",
-		skills: "Bootstrap, Javascript, SASS",
-		tier: "n.4 - Beginner",
-		collection: "Websites",
-		link: " https://beluas.github.io/4-Bootstrap-Website/",
-	},
+
 	{
 		title: "Algorithms",
 		desc: "100 Algorithms challenge.",
@@ -53,6 +46,14 @@ export const projects = [
 		tier: "n.5 - Beginner",
 		collection: "Websites",
 		link: " https://beluas.github.io/5-Minimal-Portfolio/",
+	},
+	{
+		title: "Nature Website",
+		desc: "A simple One Page template made with bootstrap ",
+		skills: "Bootstrap, Javascript, SASS",
+		tier: "n.4 - Beginner",
+		collection: "Websites",
+		link: " https://beluas.github.io/4-Bootstrap-Website/",
 	},
 	{
 		title: "Angry to be Hungry",
