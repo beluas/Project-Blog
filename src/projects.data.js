@@ -1,11 +1,10 @@
-// https://beluas.github.io/7-Evernote-clone/
 export const projects = [
 	{
 		title: "Evernote Clone",
 		desc:
-			"Website created with React using React-Quill for the editor and Material-UI to style components.",
+			"Website created with React, Firebase to store notes, React-Quill for the editor and Material-UI to style components.",
 		skills: "React, Material-UI",
-		tier: "n.2 - Intermediate",
+		tier: "n.8 - Intermediate",
 		collection: "Api",
 		link: "https://beluas.github.io/7-Evernote-clone/",
 		greatest: true,

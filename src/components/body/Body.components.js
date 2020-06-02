@@ -9,19 +9,19 @@ class Body extends React.Component {
 		return (
 			<div className="body">
 				<div className="overlay" />
-				<h2 id="latest">Latest</h2>
+				<h3 id="latest">Latest</h3>
 
 				{projects.slice(0, 3).map((project) => (
 					<ProjectTab {...project} />
 				))}
 
-				<h2 id="greatest">Greatest</h2>
+				<h3 id="greatest">Greatest</h3>
 				{projects
 					.filter((el) => el.greatest)
 					.map((project) => (
 						<ProjectTab {...project} />
 					))}
-				<h2 id="other-projects">Other Projects</h2>
+				<h3 id="other-projects">Other Projects</h3>
 
 				{projects
 					.filter((el) => !el.greatest)
