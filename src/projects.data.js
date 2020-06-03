@@ -5,7 +5,7 @@ export const projects = [
 			"Website created with React, Firebase to store notes, React-Quill for the editor and Material-UI to style components.",
 		skills: "React, Material-UI",
 		tier: "n.8 - Intermediate",
-		collection: "Api",
+		collection: "App Cloned",
 		link: "https://beluas.github.io/7-Evernote-clone/",
 		greatest: true,
 	},
@@ -17,6 +17,23 @@ export const projects = [
 		tier: "n.2 - Beginner",
 		collection: "Api",
 		link: "https://beluas.github.io/2-recipeat/",
+	},
+	{
+		title: "Youtube Clone",
+		desc: "Youtube Clone created using React",
+		skills: "React, CSS3",
+		tier: "n.12 - Beginner",
+		collection: "App Cloned",
+		link: "https://react-jyaf1u.stackblitz.io/",
+	},
+	{
+		title: "Animated buttons",
+		desc:
+			"A couple of amazing animation on hover for buttons using CSS3 animation with SASS",
+		skills: "CSS3, SASS",
+		tier: "n.9 - Intermediate",
+		collection: "Animations",
+		link: "https://beluas.github.io/8-Button-Animations/",
 	},
 	{
 		title: "Real-Estate",
@@ -39,6 +56,15 @@ export const projects = [
 		greatest: true,
 	},
 	{
+		title: "Animated Elements",
+		desc:
+			"A couple of amazing animation on hover for HTML Elements using CSS3 animation with SASS",
+		skills: "CSS3, SASS",
+		tier: "n.10 - Intermediate",
+		collection: "Animations",
+		link: "https://beluas.github.io/9-Element-Animations/",
+	},
+	{
 		title: "Photographer Portfolio",
 		desc:
 			"Website created using Bootstrap and AOS library to handle animations ",
@@ -56,13 +82,13 @@ export const projects = [
 		link: " https://beluas.github.io/4-Bootstrap-Website/",
 	},
 	{
-		title: "Angry to be Hungry",
+		title: "Animated Icons",
 		desc:
-			"App created using plain Js to practice api calls with plain js. ",
-		skills: "Javascript",
-		tier: "n.1 - Beginner",
-		collection: "Api",
-		link: "https://beluas.github.io/1-Angry-ToBe-Hungry/",
+			"A couple of amazing animation on hover for Icons using CSS3 animation with SASS",
+		skills: "CSS3, SASS",
+		tier: "n.11 - Intermediate",
+		collection: "Websites",
+		link: "https://beluas.github.io/10-Icons-Animations/",
 	},
 	{
 		title: "Infinite Scroll Images",
