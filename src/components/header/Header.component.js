@@ -44,13 +44,18 @@ const Header = () => {
 			<div className="social">
 				<img src={profilePicture} alt="portfolio-pic" />
 				<span>
-					<i className="fab fa-github"></i> <span>GitHub</span>
-					<i className="fas fa-external-link-alt"></i>
+					<a href="https://github.com/beluas">
+						<i className="fab fa-github"></i> <span>GitHub</span>
+						<i className="fas fa-external-link-alt"></i>
+					</a>
 				</span>
 
 				<span>
-					<i className="fab fa-linkedin"></i> <span>LinkedIn</span>
-					<i className="fas fa-external-link-alt"></i>
+					<a href="https://www.linkedin.com/in/ivan-maddaluno/">
+						<i className="fab fa-linkedin"></i>{" "}
+						<span>LinkedIn</span>
+						<i className="fas fa-external-link-alt"></i>
+					</a>
 				</span>
 			</div>
 		</div>

@@ -8,10 +8,18 @@
 	padding-bottom: 3rem;
 	i {
 		font-size: 48px;
+		transition: transform 0.2s ease-in-out;
+		&:hover {
+			transform: translateY(-10px);
+		}
 	}
 	img {
+		transition: transform 0.2s ease-in-out;
 		position: relative;
 		top: 2px;
+		&:hover {
+			transform: translateY(-10px);
+		}
 	}
 }
 

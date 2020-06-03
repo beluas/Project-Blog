@@ -2,8 +2,8 @@ export const projects = [
 	{
 		title: "Evernote Clone",
 		desc:
-			"Website created with React, Firebase to store notes, React-Quill for the editor and Material-UI to style components.",
-		skills: "React, Material-UI",
+			"App created with React, Firebase to store notes, React-Quill for the editor and Material-UI to style components.",
+		skills: "React, Material-UI, Firebase",
 		tier: "n.8 - Intermediate",
 		collection: "App Cloned",
 		link: "https://beluas.github.io/7-Evernote-clone/",
@@ -47,8 +47,9 @@ export const projects = [
 	},
 
 	{
-		title: "Algorithms",
-		desc: "100 Algorithms challenge.",
+		title: "100 Algorithms Challenge",
+		desc:
+			"TO COMPLETE. 100 Algorithms challenge. Algorithms written using Typescript and Javascript",
 		skills: "Javascript, Typescript",
 		tier: "n.6 - Intermediate",
 		collection: "Algorithms",
@@ -100,7 +101,3 @@ export const projects = [
 		link: "https://github.com/beluas/3-Infinite-Scroll-Images",
 	},
 ];
-
-//skills, title, desc, tier, collection
-
-// https://beluas.github.io/Day4-Minimal-Portfolio/
