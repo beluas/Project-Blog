@@ -1,5 +1,15 @@
 export const projects = [
 	{
+		title: "E-commerce Clothing",
+		desc:
+			"Fully functional E-commerce Website using React, Redux, Reselect, Stripe-api to handle payments, Firebase to handle the registration and the sign-in of the users, redux-persist to actually store data in localStorage to not lose what you did on the website and React Router DOM to actually handle the Routes. styling created in SASS",
+		skills:
+			"React, Redux, Redux-persist, React-router-dom Reselect, Firebase, SASS, Stripe-Api, React Router",
+		collection: "Professional Website",
+		link: "https://beluacode-ecommerce.herokuapp.com/",
+		greatest: true,
+	},
+	{
 		title: "Evernote Clone",
 		desc:
 			"App created with React, Firebase to store notes, React-Quill for the editor and Material-UI to style components.",
