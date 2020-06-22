@@ -4,9 +4,9 @@ export const projects = [
 		desc:
 			"Fully functional E-commerce Website using React, Redux, Reselect, redux-persist to actually store data in localStorage to not lose what you did on the website and React Router DOM to actually handle the Routes. styling created in SASS and Styled-Components",
 		skills:
-			"React, Redux, Redux-persist, React-router-dom Reselect, Firebase, SASS & Styled-Components, Stripe-Api",
+			"React, Redux, Redux-persist, React-router-dom Reselect, SASS & Styled-Components",
 		collection: "Professional Website",
-		link: "https://beluacode-ecommerce.herokuapp.com/",
+		link: "https://beluas.github.io/TechGoods/",
 		greatest: true,
 	},
 	{
