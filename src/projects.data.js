@@ -2,11 +2,11 @@ export const projects = [
 	{
 		title: "E-commerce Tech",
 		desc:
-			"Fully functional E-commerce Website using React, Redux, Reselect, redux-persist to actually store data in localStorage to not lose what you did on the website and React Router DOM to actually handle the Routes. styling created in SASS and Styled-Components",
+			"Fully functional E-commerce Website using React, Redux, Reselect, redux-persist to actually store data in localStorage to not lose what you did on the website and React Router DOM to actually handle the Routes. styling created in SASS and Styled-Components Improvements : make it FullStack ",
 		skills:
 			"React, Redux, Redux-persist, React-router-dom Reselect, SASS & Styled-Components",
 		collection: "Professional Website",
-		link: "https://beluas.github.io/TechGoods/",
+		link: "https://tech-goods.herokuapp.com/",
 		greatest: true,
 	},
 	{
