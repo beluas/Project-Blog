@@ -1,5 +1,15 @@
 export const projects = [
 	{
+		title: "E-commerce Tech",
+		desc:
+			"Fully functional E-commerce Website using React, Redux, Reselect, redux-persist to actually store data in localStorage to not lose what you did on the website and React Router DOM to actually handle the Routes. styling created in SASS and Styled-Components",
+		skills:
+			"React, Redux, Redux-persist, React-router-dom Reselect, Firebase, SASS & Styled-Components, Stripe-Api",
+		collection: "Professional Website",
+		link: "https://beluacode-ecommerce.herokuapp.com/",
+		greatest: true,
+	},
+	{
 		title: "E-commerce Clothing",
 		desc:
 			"Fully functional E-commerce Website using React, Redux, Reselect, Stripe-api to handle payments, Firebase to handle the registration and the sign-in of the users, redux-persist to actually store data in localStorage to not lose what you did on the website and React Router DOM to actually handle the Routes. styling created in SASS and partially converted using Styled-Components",
@@ -7,7 +17,7 @@ export const projects = [
 			"React, Redux, Redux-persist, React-router-dom Reselect, Firebase, SASS & Styled-Components, Stripe-Api",
 		collection: "Professional Website",
 		link: "https://beluacode-ecommerce.herokuapp.com/",
-		greatest: true,
+		greatest: false,
 	},
 	{
 		title: "Evernote Clone",
